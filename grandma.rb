@@ -1,6 +1,7 @@
 # Write a speak_to_grandma method.
 def speak_to_grandma(phrase)
-  if phrase == "I lOVE YOU GRANDMA!"
+  binding.pry
+  if phrase == "I LOVE YOU GRANDMA!"
      "I LOVE YOU TOO PUMPKIN!"
   end
 end
