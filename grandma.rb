@@ -3,6 +3,10 @@ def speak_to_grandma(phrase)
   binding.pry
   if phrase == "I LOVE YOU GRANDMA!"
      "I LOVE YOU TOO PUMPKIN!"
+  elsif phrase == phrase.upcase
+    "I LOVE YOU TOO PUMPKIN!"
+  else 
+    "HUH?! SPEAK UP, SONNY!"
   end
 end
 # Whatever you say to grandma, she should respond with
